@@ -1,2 +1,2 @@
-
-zip -r lambda.zip lambda -x \*/__pycache__/\* -x lambda/requirements.txt
+cd lambda
+zip -r ../lambda.zip * -x \*/__pycache__/\*
